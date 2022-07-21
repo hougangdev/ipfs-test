@@ -1,7 +1,10 @@
 # ipfs-test
 
-### Deploy the contract to Rinkeby
+1) Deploy the contract to Rinkeby
+2) Send LINK to the deployed contract
+3) Call requestValue(string url,int256 multiply, int path)
 
-### Send LINK to the deployed contract
+Note:
+Testnet ETH and LINK can be obtained from https://faucets.chain.link/rinkeby
+Make sure url wrapped in ""
 
-### Call requestValue(string url,int256 multiply, int path)
