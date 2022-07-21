@@ -14,7 +14,7 @@ contract UniquenessDaoScore is ChainlinkClient {
 
     constructor() public {
     	setPublicChainlinkToken();
-    	oracle = 0xf71775b3640D7034466e0321E35c5CFB78fd212F; // oracle address
+    	oracle = 0x188b71C9d27cDeE01B9b0dfF5C1aff62E8D6F434; // oracle address
     	jobId = "7599d3c8f31e4ce78ad2b790cbcfc673"; //job id
     	fee = 0.05 * 10 ** 18; // 0.1 LINK
     }   
